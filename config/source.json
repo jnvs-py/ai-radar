@@ -1,0 +1,70 @@
+{
+  "lastUpdated": "2026-07-13T23:30:14.567Z",
+  "_source": "hardcoded-fallback (reset)",
+  "_note": "Esta cache usa fuentes locales. La sincronizacion con Notion no esta disponible en este momento.",
+  "sources": {
+    "fuente_oficial": [
+      {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "Anthropic News",
+        "url": "https://www.anthropic.com/news",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "Google DeepMind Blog",
+        "url": "https://deepmind.google/discover/blog/",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/",
+        "cadencia": "diaria"
+      }
+    ],
+    "repo_tecnico": [
+      {
+        "name": "GitHub Trending ML",
+        "url": "https://api.github.com/search/repositories?q=topic:machine-learning&sort=stars&order=desc",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "Hugging Face Papers",
+        "url": "https://huggingface.co/papers",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "ArXiv AI Papers",
+        "url": "https://arxiv.org/list/cs.AI/recent",
+        "cadencia": "diaria"
+      }
+    ],
+    "comunidad": [
+      {
+        "name": "Reddit r/MachineLearning",
+        "url": "https://reddit.com/r/MachineLearning/.json",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com",
+        "cadencia": "diaria"
+      }
+    ],
+    "medio_secundario": [
+      {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/",
+        "cadencia": "diaria"
+      },
+      {
+        "name": "The Decoder",
+        "url": "https://the-decoder.com",
+        "cadencia": "diaria"
+      }
+    ]
+  }
+}
