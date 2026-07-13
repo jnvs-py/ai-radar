@@ -1,0 +1,151 @@
+{
+  "contract": {
+    "name": "ai-radar-daily-signals",
+    "version": "1.0.0"
+  },
+  "date": "2026-07-13",
+  "capturedAt": "2026-07-13T12:00:00Z",
+  "query": {
+    "description": "Daily signals fetch",
+    "language": "es",
+    "requestedLimit": 10
+  },
+  "signals": [
+    {
+      "id": "signal-2026-07-13-01",
+      "title": "MoE Scaling Laws Confirmed at Trillion Parameter Scale",
+      "source": {
+        "name": "ArXiv",
+        "url": "https://arxiv.org/abs/2607.00001",
+        "trustScore": 96
+      },
+      "evidence": "New paper demonstrates Mixture-of-Experts models achieve 3.2x throughput at equivalent quality compared to dense models up to 5T parameters.",
+      "impact": "Fundamentally changes the cost-benefit calculation for training large foundation models. Dense scaling might be obsolete for generalized tasks.",
+      "action": "Evaluate MoE architectures for upcoming internal models. Update cost projections for training.",
+      "status": "modelo_emergente",
+      "confidence": 94,
+      "trend": "up",
+      "categories": ["NLP", "Infra"],
+      "date": "2026-07-13T10:30:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-02",
+      "title": "Embodied Agent Breakthrough in Robotics Control",
+      "source": {
+        "name": "GitHub Trending ML",
+        "url": "https://github.com/trending/python",
+        "trustScore": 88
+      },
+      "evidence": "Open source repository 'VLA-Control' reached 10k stars in 48h. Shows zero-shot generalization across 45 novel physical tasks.",
+      "impact": "Lowers the barrier to entry for generalized robotics. Software-first teams can now build capable physical agents.",
+      "action": "Assign one engineer to replicate the VLA-Control benchmarks on our test hardware this week.",
+      "status": "modelo_emergente",
+      "confidence": 88,
+      "trend": "up",
+      "categories": ["Robotics", "Agents"],
+      "date": "2026-07-13T07:15:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-03",
+      "title": "EU AI Act Enforcement Wave Begins",
+      "source": {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/",
+        "trustScore": 81
+      },
+      "evidence": "First three enforcement actions announced against European AI startups for lacking risk assessments in their generative pipelines.",
+      "impact": "Signals that regulators are moving from guidance to active enforcement. High risk for teams ignoring compliance.",
+      "action": "Audit current model pipelines against EU AI Act checklist. Ensure risk assessments are documented for any user-facing generative feature.",
+      "status": "observacion",
+      "confidence": 81,
+      "trend": "stable",
+      "categories": ["Regulation"],
+      "date": "2026-07-12T14:20:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-04",
+      "title": "Synthetic Data Quality Collapse Documented",
+      "source": {
+        "name": "Reddit r/MachineLearning",
+        "url": "https://reddit.com/r/MachineLearning",
+        "trustScore": 67
+      },
+      "evidence": "Highly upvoted thread shows that training on 4th-generation synthetic data causes irreversible model collapse in specific reasoning tasks.",
+      "impact": "Questions the long-term viability of recursive self-improvement without continuous human-in-the-loop data pipelines.",
+      "action": "Pause the planned synthetic data generation pipeline until quality degradation metrics are implemented.",
+      "status": "claim_no_verificado",
+      "confidence": 67,
+      "trend": "down",
+      "categories": ["Safety", "Data"],
+      "date": "2026-07-10T09:00:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-05",
+      "title": "New Audio Generation API Reduces Latency to 150ms",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog",
+        "trustScore": 99
+      },
+      "evidence": "Official announcement of Voice Engine v2 API, boasting 150ms TTFT (Time To First Token) and expressive emotional control.",
+      "impact": "Makes real-time conversational voice agents indistinguishable from human latency. Unlocks new customer service use cases.",
+      "action": "Integrate the new endpoint in the voice-assistant prototype and test latency from end to end.",
+      "status": "pendiente_de_lanzamiento",
+      "confidence": 99,
+      "trend": "up",
+      "categories": ["Audio", "API"],
+      "date": "2026-07-13T11:45:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-06",
+      "title": "Licensing Deal Reached for Training Data",
+      "source": {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com",
+        "trustScore": 75
+      },
+      "evidence": "Major publisher agrees to license full archive for LLM training in a deal worth $50M.",
+      "impact": "Sets a new market price for high-quality specialized text data.",
+      "action": "Review data acquisition budget.",
+      "status": "en_negociacion",
+      "confidence": 85,
+      "trend": "stable",
+      "categories": ["Business"],
+      "date": "2026-07-11T16:30:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-07",
+      "title": "Quantum Error Correction Hits Critical Milestone",
+      "source": {
+        "name": "ArXiv",
+        "url": "https://arxiv.org",
+        "trustScore": 92
+      },
+      "evidence": "",
+      "impact": "Long term implications for cryptography.",
+      "action": "",
+      "status": "observacion",
+      "confidence": 60,
+      "trend": "stable",
+      "categories": ["Hardware"],
+      "date": "2026-07-09T08:00:00Z"
+    },
+    {
+      "id": "signal-2026-07-13-08",
+      "title": "Ultra-Long Action Case Edge Test",
+      "source": {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "trustScore": 90
+      },
+      "evidence": "Repository shows edge case handling.",
+      "impact": "Important for testing UI robustness.",
+      "action": "This is an extremely long action text designed specifically to test how the user interface handles very long strings of text that might cause overflow or break the layout.",
+      "status": "resuelto_parcialmente",
+      "confidence": 90,
+      "trend": "up",
+      "categories": ["Testing"],
+      "date": "2026-07-12T10:00:00Z"
+    }
+  ]
+}
