@@ -1,0 +1,14 @@
+{
+  "name": "ai-radar-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "tsx scripts/seed-fixtures.ts",
+    "deploy": "supabase functions deploy signals --project-ref luymyxnbfieuelbsaqzv"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
