@@ -1,0 +1,7 @@
+{
+  "hackernews": { "enabled": true, "urls": ["https://news.ycombinator.com/"] },
+  "reddit": { "enabled": true, "subreddits": ["MachineLearning", "artificial"] },
+  "github": { "enabled": true, "topics": ["machine-learning", "ai"] },
+  "newsletters": { "enabled": true, "urls": ["https://www.deeplearning.ai/the-batch/", "https://importai.substack.com/"] },
+  "tech_news": { "enabled": true, "urls": ["https://techcrunch.com/category/artificial-intelligence/"] }
+}

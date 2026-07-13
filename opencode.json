@@ -1,0 +1,1 @@
+{"mcp":{"notion":{"type":"local","command":["npx","-y","mcp-remote","https://mcp.notion.com/mcp"],"enabled":true},"supabase":{"type":"remote","url":"https://mcp.supabase.com/mcp?project_ref=luymyxnbfieuelbsaqzv","enabled":true}}}

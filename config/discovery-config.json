@@ -1,0 +1,15 @@
+{
+  "min_score": 10,
+  "max_candidates": 20,
+  "auto_add_threshold": 15,
+  "scoring_rubrics": {
+    "relevance": { "min": 1, "max": 5, "description": "How relevant is this source to AI builders?" },
+    "frequency": { "min": 1, "max": 5, "description": "How often does this source publish AI content?" },
+    "quality": { "min": 1, "max": 5, "description": "How credible and well-researched is the content?" }
+  },
+  "dedup": {
+    "url_match": true,
+    "domain_match": true,
+    "name_similarity_threshold": 0.7
+  }
+}
